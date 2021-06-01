@@ -1,0 +1,23 @@
+{
+  "name": "platziTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "Juan Gaviria <juan.gaviria@kommit.co>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^27.0.1",
+    "jest": "^27.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
